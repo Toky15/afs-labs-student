@@ -23,6 +23,6 @@ spec:
         - secretRef:
             name: db-secret
         name: db-deployment
-        image: harbor.dev.afsmtddso.com/jmuheebat-harbor-project/REPOSITORY[:TAG]
+        image: harbor.dev.afsmtddso.com/jmuheebat-harbor-project/db:a8170fc-bff5a88
         ports:
         - containerPort: 5432
