@@ -14,7 +14,7 @@ spec:
       maxUnavailable: 0
   minReadySeconds: 20
   selector:
-    matchLabelplys:
+    matchLabels:
       app: app
   template:
     metadata:
